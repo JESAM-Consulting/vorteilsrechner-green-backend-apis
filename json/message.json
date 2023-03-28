@@ -1,0 +1,37 @@
+{
+    "ROLE_CREATE": "role created!",
+    "ROLE_DELETE": "role deleted",
+    "ROLE_EXISTS": "this role is already created",
+
+    "USER_NOT_FOUND": "user not found in the system :(",
+    "ADMIN_NOT_FOUND": "admin not found in the system :(",
+    "VENDOR_NOT_FOUND": "vendor not found in the system :(",
+    "INVALID_USER": "we've got invalid user id! ",
+    "USER_NOT_REGISTERED": "user not registered!",
+    "USER_EXISTS": "User is exists in the system!",
+    "USER_CREATED": "user registration successfull!",
+    "USER_LOGIN": "user logged-in successfully!",
+    "MISMATCH": "something mismatch! please check before you try again..",
+    "PASS_RESET": "password updated successfully!",
+    "EMAIL_SENT": "one time password for recover your account has been sent to your registered email address, check for reset your password",
+    "WRONG_CODE": "the code you've entered isn't valid",
+    "INVALID_PARAMS": "invalid params",
+    "POSTCODEERR": "postcode must be 5 digits",
+    "POSTCODEREQ": "postcode is required",
+
+    "NO_TOKEN": "Invalid token!",
+    "NO_API_ACC": "invalid api account ",
+    "INVALID_TOKEN": "Unauthorized token!",
+    "NO_REQUSER": "couldn't find data from req.user!",
+    "VERIFIED": "user verified successfully! you can login and change your password",
+
+
+    "GENERAL": "sorry, something went wrong with the system! You can call the support...",
+    "REQUIRED": "all fields are required to perform this action!",
+
+    "FORM_CREATED": "form created successfully!",
+    "FORM_FOUND": "form found successfully!",
+    "FORM_UPDATED": "form updated successfully!",
+    "FORM_DELETED": "form deleted successfully!",
+    "FORM_NOT_FOUND": "form not found in the system :("
+}

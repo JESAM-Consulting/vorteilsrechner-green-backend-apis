@@ -1,0 +1,68 @@
+
+{   
+
+    "HTTP_CODES": {
+        "OK": 200,
+        "CREATED": 201,
+        "NOT_AUTHORIZED": 401,
+        "BAD_REQUEST": 400,
+        "NOT_FOUND": 404,
+        "NOT_ACCEPTABLE": 406,
+        "BAD_GATWAY": 502,
+        "REQUEST_TIMEOUT": 408
+    },
+
+    "USER_TYPE": {
+        "ADMIN": "admin",
+        "USER": "user",
+        "VENDOR": "vendor"
+    },
+
+    "INTEREST_FUNDING": {
+        "YES": "Yes",
+        "NO": "No",
+        "MAYBE": "Maybe"
+    },
+
+    "REACHABILITY": {
+        "MORNING": "Morning",
+        "NOON": "Noon",
+        "AFTER_NOON": "Afternoon",
+        "EVENING": "Evening",
+        "FULL_TIME": "Full-time"
+    },
+
+    "TYPE_OF_BUILDING": {
+        "ONE_TWO_FAM_HOUSE": "One-Two-Family House",
+        "MULTI_FAM_HOUSE": "Multi-Family House",
+        "COMPANY_BUILDING": "Company building",
+        "OTHER": "Other"
+    },
+
+    "ROOF_SHAPE": {
+        "FLAT": "Flat roof",
+        "HIPPED": "Hipped roof",
+        "PENT": "Pent roof",
+        "OTHER": "Other"
+    },
+
+    "TYPE_ROOF_COVERING": {
+        "METAL": "Metal",
+        "CLAY__BRIK": "Clay brick",
+        "CONCRETE_BRIK": "Concrete brick",
+        "BITUMEN": "Bitumen",
+        "BEAVERTIAL": "Beavertial",
+        "SLATE": "slate",
+        "PREFA": "prefa"
+    },
+
+    "TYPE_HEATING": {
+        "OIL": "Oil",
+        "GAS": "Gas",
+        "PELLETS": "Pellete",
+        "INFRARED": "Infrared",
+        "DISTRICT_HEATING": "District heating",
+        "NIGHT_STORAGE": "Night Storage",
+        "HEAT_PUMP": "Heat Pump"
+    }
+}
