@@ -48,10 +48,11 @@ const createForm = {
 const getUserForm = {
     handler: async (req, res) => {
         try {
-            const { id } = req.query
+            const { id, project } = req.query
 
             let criteria = {}
             if (id) criteria._id = id
+            if(project) criteria.project = project
 
             const page = parseInt(req.query.page) || 1
             const limit = parseInt(req.query.limit) || 10
