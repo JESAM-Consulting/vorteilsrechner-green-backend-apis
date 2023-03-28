@@ -7,6 +7,8 @@ const jwt = require('jsonwebtoken')
 const createForm = {
     // joi schema validation
     validation: joi.object({
+        project: joi.string(),
+        Leadherkunft: joi.string(),
         Lnews: joi.boolean(),
         Monthlyprice: joi.string(),
         agreement: joi.boolean(),
@@ -71,6 +73,8 @@ const getUserForm = {
 const updateUserForm = {
 
     validation: joi.object({
+        project: joi.string(),
+        Leadherkunft: joi.string(),
         Lnews: joi.string(),
         Monthlyprice: joi.string(),
         agreement: joi.boolean(),

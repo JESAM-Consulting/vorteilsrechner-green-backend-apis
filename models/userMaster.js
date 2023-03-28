@@ -3,6 +3,8 @@ const { INTEREST_FUNDING, REACHABILITY, TYPE_OF_BUILDING, ROOF_SHAPE, TYPE_ROOF_
 
 const userSchema = new mongoose.Schema(
     {
+        project: { type: String },
+        Leadherkunft: { type: String },
         Lnews: { type: Boolean },
         Monthlyprice: { type: String },
         agreement: { type: Boolean },
